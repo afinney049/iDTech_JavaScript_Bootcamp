@@ -30,7 +30,7 @@ function Run() {
     pos += 20;
     img.style.left = pos + 'px';
   }
-  setTimeout(Run, 50);
+  setTimeout(Run, 200);
 }
 // TODO: Add a Javascript setInterval() method that will call the Run() function above every 200 milliseconds. Note: in the video, Dr. Williams uses the setTimeout() method, but here we are going to use a slightly different
 // method called setInterval(), so that you can have practice using this method.
